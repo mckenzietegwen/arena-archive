@@ -17,8 +17,26 @@ header {
 	display: flex;
 }
 
-h1, h2, h3 {
+#header2 {
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+}
+
+h1 {
 	font-size: 200%;
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+}
+
+h2 {
+	padding: 0px 20px;
+	margin: 0px 10px;
+	border: 1px solid black;
+}
+
+h3 {
+	font-size: 150%;
 }
 
 /* #channel-description > *,
@@ -40,9 +58,9 @@ section {
 	"footer footer footer footer";
 }
 
-div:first-child {
+/* div:first-child {
 	background-color: blue;
-}
+} */
 
 div:nth-child(2) {
 	background-color: blue;
