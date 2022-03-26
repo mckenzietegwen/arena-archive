@@ -20,6 +20,12 @@ header {
 #header2 {
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
+	align-content: center;
+	justify-content: center;
+}
+
+#centeralign {
+	margin: auto;
 }
 
 h1 {
@@ -32,7 +38,18 @@ h1 {
 h2 {
 	padding: 0px 20px;
 	margin: 0px 10px;
-	border: 1px solid black;
+	border: 1px solid rgb(230,50,35);
+	border-radius: 7px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+h2:hover {
+	background-color: rgb(230,50,35);
+	color: #E1DCD6;
+	transition: 0.7s;
+	transform: rotate(180deg);
 }
 
 h3 {
