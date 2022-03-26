@@ -16,7 +16,7 @@
 		<a href="https://www.are.na/tegwen-mckenzie/archive-o8miaznpkeq" id="channel-url">
 			<h1 id="channel-title"></h1> <!-- The channel title will be inserted inside this h1. -->
 		</a>
-		<div id="channel-description"></div> <!-- Same here for the channel description. -->
+		<span id="channel-description"></span> <!-- Same here for the channel description. -->
 </header>
 
 
@@ -33,11 +33,14 @@
 		<!-- You could not show the type if you group them by section, above. -->
 
  		<!-- Spotify, Soundcloud, etc. -->
+	<section id="grid">
+
+	<div id="firstchild">
 		<template id="audio-embed-block">
 			<figure class="audio-embed"> <!-- You can use the container classes to style a whole type. -->
 				<h3 class="title"></h3> <!-- Block title inserts here. -->
-				<div class="embed"></div> <!-- Embed iframe inserts here. -->
-				<a class="link"> <!-- Original URL inserts here. -->
+				<span class="embed"></span> <!-- Embed iframe inserts here. -->
+				<a class="link" target="_blank"> <!-- Original URL inserts here. -->
 					<p class="link-title"></p> <!--Link title inserts here. -->
 					<!-- <img class="image"> Image/cover image source inserts here. -->
 				</a>
@@ -45,11 +48,13 @@
 				<p class="type"></p> <!-- Block type/kind inserts here. -->
 			</figure>
 		</template>
+	</div>
 
+	<div>
 		<template id="image-block">
 			<figure class="image-block">
 				<h3 class="title"></h3>
-				<a class="link">
+				<a class="link" target="_blank">
 					<p class="link-title"></p>
 					<img class="image">
 				</a>
@@ -57,11 +62,13 @@
 				<p class="type"></p>
 			</figure>
 		</template>
+	</div>
 
+<div>
 		<template id="link-block">
 			<figure class="link-block">
 				<h3 class="title"></h3>
-				<a class="link">
+				<a class="link" target="_blank">
 					<!-- <p class="link-title"></p> -->
 					<img class="image">
 				</a>
@@ -69,6 +76,7 @@
 				<p class="type"></p>
 			</figure>
 		</template>
+	</div>
 
 		<!-- <template id="text-block">
 			<figure class="text-block">
@@ -80,19 +88,21 @@
 		</template> -->
 
 		<!-- YouTube, Vimeo, etc. -->
+	<div>
 		<template id="video-embed-block">
 			<figure class="video-embed-block">
 				<h3 class="title"></h3>
-				<div class="embed"></div>
-				<a class="link">
-					<p class="link-title"></p>
+				<span class="embed"></span>
+				<a class="link" target="_blank">
+					<!-- <p class="link-title"></p> -->
 					<!-- <img class="image"> -->
 				</a>
 				<figcaption class="description"></figcaption>
 				<p class="type"></p>
 			</figure>
 		</template>
+	</div>
 
-
+	</section>
 	</body>
 </html>
