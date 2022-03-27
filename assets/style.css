@@ -8,13 +8,13 @@ body {
 header {
 	position: fixed;
 	width: 100%;
-	top: 0;
-	left: 0;
 	padding: 10px;
 	border: 2px solid red;
 	position: relative;
 	margin-bottom: 10px;
 	display: flex;
+	word-break: break-all;
+	text-align: center;
 }
 
 #header2 {
@@ -38,11 +38,12 @@ h1 {
 h2 {
 	padding: 0px 20px;
 	margin: 0px 10px;
-	border: 1px solid rgb(230,50,35);
+	border: 2px solid rgb(230,50,35);
 	border-radius: 7px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	transition: 0.7s;
 }
 
 h2:hover {
