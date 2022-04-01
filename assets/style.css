@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-	font-size: 2vw;
+	font-size: 3vw;
 	margin-right: 0;
 	padding-right: 10px;
 	white-space:nowrap;
@@ -83,10 +83,16 @@ section {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-flow: dense;
-	gap: 30px;
+	gap: 10px;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 1084px) {
+	section {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
 	section {
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -99,10 +105,11 @@ section {
 .image {
 	margin-top: 10px;
 	width: 300px;
-	border: 10px solid;
-	background: rgb(230,50,35);
+	border: 5px solid;
+	padding: 10px;
 }
 
+}
 .description {
 	margin-top: 20px;
 	font-size: 15px;
@@ -117,7 +124,17 @@ h4 {
 	color: #E1DCD6;
 	padding: 10px;
 	display: inline-block;
-	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+h5 {
+	padding-right: 10px;
+	justify-content: center;
+	font-size: 30px;
+	background-color: rgb(230,50,35);
+	color: #E1DCD6;
+	padding: 10px;
 	margin-top: 10px;
 	text-align: center;
 }
