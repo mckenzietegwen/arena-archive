@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="assets/reset.css" rel="stylesheet">
+		<link href="assets/style.css" rel="stylesheet">
+		<script src="assets/arena.js"></script>
+		<link href="assets/favicon.png" rel="icon">
+		<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Archivo Narrow">
+	</head>
+	<body>
+
+		<!-- Replace this URL with your channel to connect the API! -->
+<header>
+	<button onclick="document.location='index.html'">
+		<img id="hmartlogo" src="assets/hmart.png">
+	</button>
+		<a href="https://www.are.na/tegwen-mckenzie/archive-dry-goods" id="channel-url">
+			<h1 id="channel-title"></h1>
+		</a>
+		<span id="channel-description"></span>
+</header>
+
+<header>
+<div id="centeralign">
+	<div id="header2">
+
+		<button onclick="document.location='fruitandveg.html'">
+			<h2>Fruit and Veg</h2>
+		</button>
+
+		<button onclick="document.location='snacks.html'">
+		<h2>Snacks</h2>
+		</button>
+
+		<button onclick="document.location='meats.html'">
+		<h2>Meats</h2>
+		</button>
+
+		<button onclick="document.location='seafood.html'">
+		<h2>Seafood</h2>
+		</button>
+
+		<button onclick="document.location='drygoods.html'">
+		<h2>Dry Goods</h2>
+		</button>
+
+		<button onclick="document.location='beverages.html'">
+		<h2>Beverages</h2>
+		</button>
+
+		<button onclick="document.location='bok.html'">
+		<h2>The Best of Korea</h2>
+		</button>
+
+		<button onclick="document.location='home.html'">
+		<h2>Hello Home</h2>
+		</button>
+
+	</div>
+</div>
+</header>
+
+
+		<!-- All the channel “blocks” will be created as children, here. -->
+		<!-- You could move the classes to different section elements to separate the types! -->
+		<section class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks text-blocks video-embed-blocks video-file-blocks">
+		</section>
+
+
+
+		<!-- These are the templates for the various block types, below. -->
+		<!-- You can move/nest/remove any of the insertion points! -->
+		<!-- For example, you could only show images for actual image blocks. -->
+		<!-- You could not show the type if you group them by section, above. -->
+
+ 		<!-- Spotify, Soundcloud, etc. -->
+	<section id="grid">
+
+	<div id="firstchild">
+		<template id="audio-embed-block">
+			<figure class="audio-embed"> <!-- You can use the container classes to style a whole type. -->
+				<h3 class="title"></h3> <!-- Block title inserts here. -->
+				<span class="embed"></span>
+				<a class="link" target="_blank"> <!-- Original URL inserts here. -->
+					<p class="link-title"></p>
+					<img class="image">
+				</a>
+				<figcaption class="description"></figcaption>
+				<!-- <p class="type"></p> -->
+			</figure>
+		</template>
+	</div>
+
+	<div>
+		<template id="image-block">
+			<figure class="image-block">
+				<h3 class="title"></h3>
+				<a class="link" target="_blank">
+					<p class="link-title"></p>
+					<img class="image">
+				</a>
+				<figcaption class="description"></figcaption>
+				<!-- <p class="type"></p> -->
+			</figure>
+		</template>
+	</div>
+
+	<div>
+		<template id="link-block">
+			<figure class="link-block">
+				<h3 class="title"></h3>
+				<a class="link" target="_blank">
+					<!-- <p class="link-title"></p> -->
+					<img class="image">
+				</a>
+				<figcaption class="description"></figcaption>
+				<!-- <p class="type"></p> -->
+			</figure>
+		</template>
+	</div>
+
+		<!-- <template id="text-block">
+			<figure class="text-block">
+				<h3 class="title"></h3>
+				<div class="content"></div> Text blocks insert their HTML here.
+				<figcaption class="description"></figcaption>
+				<p class="type"></p>
+			</figure>
+		</template> -->
+
+		<!-- YouTube, Vimeo, etc. -->
+
+	<div>
+		<template id="video-embed-block">
+			<figure class="video-embed-block">
+				<h3 class="title"></h3>
+				<!-- <span class="embed"></span> -->
+				<a class="link" target="_blank">
+					<p class="link-title"></p>
+					<img class="image">
+				</a>
+				<figcaption class="description"></figcaption>
+				<!-- <p class="type"></p> -->
+			</figure>
+		</template>
+	</div>
+
+	</section>
+	</body>
+</html>
