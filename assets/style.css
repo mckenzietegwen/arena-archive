@@ -83,3 +83,13 @@ section {
 .description {
 	font-size: 15px;
 }
+
+h4 {
+	padding: 0px 20px;
+	margin: 0px 10px;
+	border-radius: 7px;
+	display: flex;
+	align-content: left;
+	justify-content: left;
+	transition: 0.7s;
+}
