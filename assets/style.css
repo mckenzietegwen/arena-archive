@@ -6,6 +6,8 @@ body {
 }
 
 header {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
 	position: fixed;
 	width: 100%;
 	padding: 10px;
@@ -139,4 +141,6 @@ h5 {
 	font-size: 15px;
 	line-height: 97%;
 	padding-top: 10px;
+	width: 95%;
+	margin-left: 1px;
 }
