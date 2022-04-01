@@ -111,12 +111,6 @@ section {
 }
 
 }
-.description {
-	margin-top: 20px;
-	font-size: 15px;
-	line-height: 97%;
-	padding-top: 20px;
-}
 
 h4 {
 	padding-right: 10px;
@@ -139,4 +133,10 @@ h5 {
 	padding: 10px;
 	margin-top: 10px;
 	text-align: center;
+}
+
+.description {
+	font-size: 15px;
+	line-height: 97%;
+	padding-top: 10px;
 }
