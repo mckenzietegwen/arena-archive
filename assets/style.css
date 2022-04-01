@@ -23,15 +23,16 @@ header {
 	align-content: center;
 	justify-content: center;
 	row-gap: 10px;
+	word-break: break-word;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1420px) {
 	#header2 {
 		grid-template-columns: repeat(8, 1fr);
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 725px) {
 	#header2 {
 		grid-template-columns: repeat(1, 1fr);
 	}
