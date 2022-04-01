@@ -97,17 +97,22 @@ section {
 }
 
 .image {
-	width: 80%;
+	margin-top: 10px;
+	width: 300px;
+	border: 10px solid;
+	background: rgb(230,50,35);
 }
 
 .description {
+	margin-top: 20px;
 	font-size: 15px;
+	line-height: 97%;
 }
 
 h4 {
 	padding-right: 10px;
 	justify-content: left;
-	font-size: 13px;
+	font-size: 15px;
 	background-color: rgb(230,50,35);
 	color: #E1DCD6;
 	padding: 10px;
