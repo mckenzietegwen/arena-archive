@@ -19,9 +19,22 @@ header {
 
 #header2 {
 	display: grid;
-	grid-template-columns: repeat(8,1fr);
+	grid-template-columns: repeat(4,1fr);
 	align-content: center;
 	justify-content: center;
+	row-gap: 10px;
+}
+
+@media (min-width: 1080px) {
+	#header2 {
+		grid-template-columns: repeat(8, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	#header2 {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 #centeralign {
