@@ -85,11 +85,14 @@ section {
 }
 
 h4 {
-	padding: 0px 20px;
-	margin: 0px 10px;
-	border-radius: 7px;
-	display: flex;
-	align-content: left;
+	padding-right: 10px;
 	justify-content: left;
-	transition: 0.7s;
+	font-size: 15px;
+	background-color: rgb(230,50,35);
+	color: #E1DCD6;
+	padding: 10px;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
 }
