@@ -28,13 +28,13 @@ header {
 	word-break: break-word;
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1825px) {
 	#header2 {
 		grid-template-columns: repeat(8, 1fr);
 	}
 }
 
-@media (max-width: 725px) {
+@media (max-width: 936px) {
 	#header2 {
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -60,6 +60,7 @@ h2 {
 	align-content: center;
 	justify-content: center;
 	transition: 0.7s;
+	font-size: 150%;
 }
 
 h2:hover {
