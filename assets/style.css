@@ -79,6 +79,7 @@ section {
 .image {
 	width: 80%;
 }
-#link-block {
-	background-color: blue;
+
+.description {
+	font-size: 15px;
 }
